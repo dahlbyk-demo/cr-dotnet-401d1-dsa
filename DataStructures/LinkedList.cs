@@ -6,7 +6,7 @@
 
         public void Insert(int value)
         {
-            this.head = new Node(0);
+            this.head = new Node(value)
         }
 
         public override string ToString()
